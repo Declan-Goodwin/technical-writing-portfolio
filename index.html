@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Declan Goodwin's selected technical documentation, workflow, testing, and information architecture case studies.">
+  <title>Declan Goodwin | Technical Documentation Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Return to top">DG</a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Selected work</a>
+      <a href="#method">Method</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <p class="eyebrow">Technical writer &amp; information architect</p>
+      <h1>I make complicated systems easier to understand, use, and maintain.</h1>
+      <p class="lede">My work combines technical investigation, procedural writing, information architecture, workflow design, testing, and visual communication. I often work directly with the system I am documenting: configuring it, testing its behavior, identifying failure points, and translating what I learn into practical guidance.</p>
+      <div class="actions">
+        <a class="button primary" href="Goodwin_Declan_Corsair_Technical_Documentation_Portfolio.pdf">Download selected work samples</a>
+        <a class="button secondary" href="https://declan-goodwin.github.io/-Dgoodwin-Learning-Chain-Gang/whats-langchain">View the LangChain project</a>
+      </div>
+      <div class="hero-facts" aria-label="Portfolio summary">
+        <div><strong>6+</strong><span>years supporting DoD programs</span></div>
+        <div><strong>230+</strong><span>actions in a role-based SOP suite</span></div>
+        <div><strong>60+</strong><span>pages in an information-governance SOP</span></div>
+        <div><strong>TS/SCI</strong><span>active clearance</span></div>
+      </div>
+    </section>
+
+    <section class="security-note shell" aria-label="Sanitization statement">
+      <strong>Sanitized professional examples.</strong>
+      <span>All examples use unclassified material. Names, identifiers, internal paths, access details, operational information, and controlled content have been removed or reconstructed.</span>
+    </section>
+
+    <section id="work" class="section shell">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Documentation built around real systems and real decisions</h2>
+        <p>Each case study shows the problem, audience, constraints, documentation approach, and resulting capability.</p>
+      </div>
+
+      <article class="case-study featured">
+        <div class="case-number">01</div>
+        <div class="case-copy">
+          <div class="tags"><span>CDRL workflow</span><span>Traceability</span><span>User guidance</span><span>Power Platform</span></div>
+          <h3>CDRL Submission and Tracking Workflow</h3>
+          <p class="case-summary">A controlled intake and tracking system built around the complete deliverable lifecycle, from guided submission and report-number assignment through attachment processing, status visibility, and administrator recovery.</p>
+          <div class="case-grid">
+            <div><h4>Problem</h4><p>A manual process made identifier control, metadata quality, attachments, status, and failure recovery difficult to manage consistently.</p></div>
+            <div><h4>My role</h4><p>Mapped the lifecycle, designed and built the workflow, tested each path, and wrote contributor and administrator guidance.</p></div>
+            <div><h4>Result</h4><p>One guided interface, a centralized register, sequential report identifiers, organized files, meaningful notifications, and traceable recovery.</p></div>
+          </div>
+          <details>
+            <summary>View documentation decisions</summary>
+            <ul>
+              <li>Identify the transaction and current state in every message.</li>
+              <li>Tell users what happened and whether they must correct, verify, wait, or resubmit.</li>
+              <li>Give administrators the failure point and concrete recovery steps.</li>
+              <li>Preserve valid work instead of forcing an unnecessary restart.</li>
+            </ul>
+          </details>
+        </div>
+      </article>
+
+      <div class="case-list">
+        <article class="case-study">
+          <div class="case-number">02</div>
+          <div class="case-copy">
+            <div class="tags"><span>SOPs</span><span>Branching procedures</span><span>Ownership</span></div>
+            <h3>Role-Based Onboarding and Offboarding</h3>
+            <p class="case-summary">Six coordinated SOPs containing more than 230 actions for civilian, contractor, and military personnel, including entry-condition branches, prerequisites, dependencies, concurrent work, responsible offices, and completion evidence.</p>
+            <details><summary>Why six guides instead of one</summary><p>A universal SOP would have forced each reader to interpret irrelevant conditions. Separating personnel categories and process direction created shorter accurate paths while preserving shared structure and terminology. The suite was selected for division-wide adoption.</p></details>
+          </div>
+        </article>
+
+        <article class="case-study">
+          <div class="case-number">03</div>
+          <div class="case-copy">
+            <div class="tags"><span>Information architecture</span><span>Governance</span><span>Diagrams</span></div>
+            <h3>Information Architecture and Governance</h3>
+            <p class="case-summary">A 60-plus-page operating guide defining repository structures, taxonomy, navigation, naming conventions, permissions, lifecycle practices, and stewardship across three classified and unclassified environments.</p>
+            <details><summary>How the structure was validated</summary><p>Branch representatives navigated the proposed architecture using their current content, challenged labels and pathways, and identified missing structures. The resulting SOP was supplemented with diagrams, one-page graphics, and quick-reference guidance.</p></details>
+          </div>
+        </article>
+
+        <article class="case-study">
+          <div class="case-number">04</div>
+          <div class="case-copy">
+            <div class="tags"><span>Conditional content</span><span>Status messaging</span><span>Exceptions</span></div>
+            <h3>Visitor Access Request Workflow</h3>
+            <p class="case-summary">An end-to-end request pipeline that changes instructions and notifications according to personnel category, security classification, workflow state, required action, and scheduled follow-up.</p>
+            <details><summary>Content model</summary><p>Each message identifies the request, names the current state, explains what changed, and tells the reader whether action is required. Administrator alerts include the affected step and recovery guidance.</p></details>
+          </div>
+        </article>
+
+        <article class="case-study">
+          <div class="case-number">05</div>
+          <div class="case-copy">
+            <div class="tags"><span>Test plans</span><span>Defect reporting</span><span>ServiceNow</span></div>
+            <h3>Testing and Technical Investigation</h3>
+            <p class="case-summary">Functional, usability, and regression test planning for enterprise applications, plus a 72-hour investigation of a heavily customized Navy ServiceNow environment that produced structured findings, leadership guidance, and an end-user SOP.</p>
+            <details><summary>Hands-on documentation method</summary><p>Use the system, reproduce the workflow, capture expected and observed behavior, reconcile technical and stakeholder explanations, document the real boundaries, and revise the guidance against tested results.</p></details>
+          </div>
+        </article>
+
+        <article class="case-study">
+          <div class="case-number">06</div>
+          <div class="case-copy">
+            <div class="tags"><span>GitHub Pages</span><span>LLM concepts</span><span>Progressive disclosure</span></div>
+            <h3>LangChain Learning Documentation</h3>
+            <p class="case-summary">A public learning project that explains the LangChain ecosystem for readers at beginner, intermediate, and advanced levels through layered explanations, diagrams, expandable sections, product boundaries, and decision guidance.</p>
+            <a class="text-link" href="https://declan-goodwin.github.io/-Dgoodwin-Learning-Chain-Gang/whats-langchain">Visit the live documentation project</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="method" class="section method-section">
+      <div class="shell method-grid">
+        <div class="section-heading">
+          <p class="eyebrow">Working method</p>
+          <h2>Investigate before explaining</h2>
+          <p>I do not treat documentation as a polish layer added after the system is complete. Documentation helps expose missing decisions, inconsistent behavior, unclear ownership, and support risk.</p>
+        </div>
+        <ol class="method-list">
+          <li><strong>Frame</strong><span>Define the audience, decision, workflow, constraints, and evidence of completion.</span></li>
+          <li><strong>Investigate</strong><span>Use the system, interview stakeholders, compare requirements, and identify failure states.</span></li>
+          <li><strong>Structure</strong><span>Separate concepts, procedures, references, roles, pathways, and exceptions.</span></li>
+          <li><strong>Test</strong><span>Validate instructions against observed behavior and revise where readers lose the path.</span></li>
+          <li><strong>Maintain</strong><span>Make ownership, revision history, standards, and lifecycle expectations visible.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="section shell about-grid">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Technical writing is the through-line.</h2>
+      </div>
+      <div>
+        <p>I am a technical writer and information architect with more than six years of experience supporting Department of Defense programs. My background includes SOPs, end-user guidance, test planning, technical editing, repository governance, workflow automation, diagrams, assessment reporting, and emerging AI knowledge systems.</p>
+        <p>I am based in Fredericksburg, Virginia and hold an active TS/SCI clearance.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/declan-goodwin/">LinkedIn</a>
+          <a href="mailto:Declan.goodwin1252@gmail.com">Email</a>
+          <a href="https://github.com/Declan-Goodwin">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">Declan T. Goodwin | Technical Documentation Portfolio</div>
+  </footer>
+</body>
+</html>

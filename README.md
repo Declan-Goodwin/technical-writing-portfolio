@@ -1,56 +1,42 @@
-# Declan Goodwin | Technical Writing Portfolio
+# Declan Goodwin | Technical Documentation Portfolio
 
-I am a technical writer and information architect who specializes in making complicated systems easier to understand, use, and maintain. My work combines technical investigation, procedural writing, information architecture, workflow design, and visual communication.
+This repository hosts a public portfolio of selected technical documentation, workflow, testing, and information-architecture case studies.
 
-I have documented enterprise platforms, automated workflows, information repositories, onboarding and offboarding processes, and emerging technologies for technical and nontechnical audiences. I often work directly with the system or process I am documenting: configuring it, testing its behavior, identifying failure points, and translating what I learn into usable guidance.
+## Live portfolio
 
-## Featured writing samples
+[View the technical documentation portfolio](https://declan-goodwin.github.io/technical-writing-portfolio/)
 
-### Technical Documentation Writing Samples
+## Downloadable writing samples
 
-[View the complete writing-sample packet](Goodwin_Declan_vCluster_Technical_Documentation_Writing_Samples.pdf)
+[Download the Corsair-focused technical documentation packet](Goodwin_Declan_Corsair_Technical_Documentation_Portfolio.pdf)
 
-The packet includes three examples:
+## Selected case studies
 
-1. **LangChain Learning Documentation Site**  
-   Conceptual documentation written for readers progressing from beginner-level understanding toward more technical product and architecture decisions.
+1. **CDRL Submission and Tracking Workflow**  
+   A controlled lifecycle covering guided intake, report-number assignment, attachments, traceability, notifications, and administrator recovery.
 
 2. **Role-Based Onboarding and Offboarding SOP Suite**  
-   A sanitized example drawn from six related SOPs containing more than 230 documented actions, branching pathways, cross-functional responsibilities, dependencies, and completion evidence.
+   Six guides containing more than 230 actions, branching pathways, cross-functional responsibilities, dependencies, concurrent work, and completion evidence.
 
-3. **Automated Intake and Tracking Workflow**  
-   A sanitized example demonstrating embedded guidance, confirmations, status messages, exception handling, and administrator recovery instructions within an automated business process.
+3. **Information Architecture and Governance**  
+   A 60-plus-page operating guide for repository structures, taxonomy, naming conventions, permissions, lifecycle practices, and stewardship.
+
+4. **Visitor Access Request Workflow**  
+   Conditional instructions, confirmations, status messaging, reminders, and exception handling based on personnel category, security classification, and workflow state.
+
+5. **Testing and Technical Investigation**  
+   Functional, usability, and regression test planning plus direct investigation of a customized ServiceNow environment.
+
+6. **LangChain Learning Documentation**  
+   A separate public GitHub Pages project demonstrating conceptual documentation, progressive disclosure, diagrams, source-controlled publishing, and LLM familiarity.
 
 ## Public documentation project
 
-### What Is LangChain?
+[Visit What Is LangChain?](https://declan-goodwin.github.io/-Dgoodwin-Learning-Chain-Gang/whats-langchain)
 
-[Visit the live documentation site](https://declan-goodwin.github.io/-Dgoodwin-Learning-Chain-Gang/whats-langchain)
+## Sanitization
 
-This ongoing learning project explains the LangChain product ecosystem for readers with different levels of technical experience. It uses progressive disclosure, diagrams, expandable sections, repeated content patterns, and increasingly technical explanations to help readers build an accurate mental model without being buried in terminology.
-
-The project is published through GitHub Pages and reflects practical experience with GitHub, HTML, CSS, Markdown, static-site publishing, documentation architecture, and iterative revision.
-
-## Documentation capabilities
-
-- Conceptual, procedural, and reference documentation
-- User guides, standard operating procedures, and quick-reference materials
-- Information architecture, content governance, and repository design
-- Workflow documentation and role-specific user guidance
-- Technical editing and terminology management
-- Audience analysis and progressive disclosure
-- Process diagrams, system diagrams, and visual explanation
-- Functional testing, troubleshooting, and failure-state documentation
-- Microsoft Power Platform workflow design and documentation
-- GitHub-based documentation and static-site publishing
-
-## Selected tools and platforms
-
-GitHub | GitHub Pages | Markdown | HTML | CSS | Microsoft Power Automate | Power Apps | SharePoint | Microsoft Forms | Microsoft Teams | ServiceNow | Confluence | Jira | Microsoft Visio | Miro | Adobe Illustrator
-
-## About the professional samples
-
-Some source materials were created in a federal contracting environment. Organization-specific names, internal addresses, repository paths, system identifiers, access details, and controlled information have been removed or replaced with representative language. The documentation structures, communication patterns, and writing decisions reflect the original deliverables.
+All professional examples are sanitized or reconstructed from unclassified material. Names, identifiers, internal paths, access details, operational information, and controlled content have been removed. Representative excerpts preserve the documentation structure and decision-making without exposing organizational information.
 
 ## Contact
 
