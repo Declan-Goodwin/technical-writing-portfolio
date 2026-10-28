@@ -8,7 +8,9 @@ This repository hosts a public portfolio of selected technical documentation, wo
 
 ## Downloadable writing samples
 
-[Download the Corsair-focused technical documentation packet](Goodwin_Declan_Corsair_Technical_Documentation_Portfolio.pdf)
+[Download the general technical documentation portfolio](Goodwin_Declan_Technical_Documentation_Portfolio.pdf)
+
+The downloadable packet contains sanitized, reconstructed examples of information governance, procedural writing, document workflows, exception handling, and operational quality controls. Company-specific application packets are separate from this general portfolio.
 
 ## Selected case studies
 

@@ -77,6 +77,14 @@ h4 { margin: 0 0 7px; font-size: .78rem; letter-spacing: .08em; text-transform: 
 .case-study.featured { margin-bottom: 22px; border-color: #a9c4d8; background: linear-gradient(135deg, #fff 0%, #f2f8fc 100%); }
 .case-list { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
 .case-list .case-study { grid-template-columns: 52px 1fr; padding: 26px; box-shadow: none; }
+.case-list .case-study.project-spotlight { grid-column: 1 / -1; padding: 34px 32px; border-color: #a9c4d8; background: linear-gradient(135deg, #fff 0%, #f2f8fc 100%); }
+.project-spotlight-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); align-items: start; gap: 42px; }
+.project-spotlight h3 { margin-top: 14px; }
+.project-proof { padding: 20px 22px; border-left: 3px solid var(--blue); background: rgba(255,255,255,.86); }
+.proof-heading { margin: 0 0 10px; color: var(--navy); font-size: .83rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+.project-proof ul { margin: 0; padding-left: 19px; color: var(--muted); font-size: .9rem; }
+.project-proof li + li { margin-top: 7px; }
+.project-proof .text-link { margin-top: 14px; }
 .case-number { color: #8aa8bd; font-size: 1.1rem; font-weight: 850; letter-spacing: .08em; }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .tags span { padding: 5px 8px; border-radius: 999px; color: var(--blue); background: var(--sky); font-size: .69rem; font-weight: 750; letter-spacing: .035em; text-transform: uppercase; }
@@ -108,6 +116,7 @@ footer { padding-block: 30px; color: #d5e1ea; background: #0b253e; font-size: .8
   .hero-facts { grid-template-columns: 1fr 1fr; }
   .case-list { grid-template-columns: 1fr; }
   .case-grid { grid-template-columns: 1fr; }
+  .project-spotlight-grid { grid-template-columns: 1fr; gap: 18px; }
   .method-grid, .about-grid { grid-template-columns: 1fr; gap: 24px; }
 }
 
